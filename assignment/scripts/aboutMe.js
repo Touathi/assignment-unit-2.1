@@ -57,3 +57,78 @@
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
 
+let firstName = 'Touathi';
+
+let lastName = 'Vang';
+
+let fullName = 'Touathi Vang';
+
+console.log(fullName);
+
+let luckyNumber = 18;
+
+console.log('My name is', fullName, 'and I think', luckyNumber, 'is the winner!' );
+
+let adventurous = true;
+
+let food = 'Spaghetti';
+
+let pets = 0;
+
+let friendsPets = 3;
+
+pets += 2;
+
+const allowedPets = 1;
+
+if(adventurous == true){
+    console.log('Adventures are great!');
+}
+ else{
+    console.log('How about we stay home?');
+ }
+
+ 
+if(luckyNumber == 2 && adventurous == true){
+    console.log('Roll the dice!');
+}
+if(pets < allowedPets){
+    console.log('I can have more Pets');
+}
+ else if(pets == allowedPets){
+    console.log('I have enough pets');
+ }
+ else{
+    console.log('Oh no, I have too many pets!');
+ }
+
+let mostpet
+
+if(pets < friendsPets || pets > friendsPets){
+    console.log(mostpet = 'mostpet', 3);
+}
+else{
+    console.log(mostpet = 'mostpet', 2);
+}
+
+switch (luckyNumber) {
+    case 1 : 
+        console.log('First is the worst');
+        break;
+    
+    case 2 :
+        console.log('Second is the best');
+        break;
+
+    case 3 :
+        console.log('Third is the one with the polka dot dress');
+        break;    
+    
+    default:
+        console.log('Luck is what happens when preparation meets opportunity');
+        break;
+}
+
+result = (adventurous) ? "Adventures are great!" : "How about we stay home?";
+
+console.log(result);
