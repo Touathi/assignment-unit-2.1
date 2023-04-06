@@ -61,7 +61,7 @@ let firstName = 'Touathi';
 
 let lastName = 'Vang';
 
-let fullName = 'Touathi Vang';
+let fullName = firstName + ' ' + lastName;
 
 console.log(fullName);
 
