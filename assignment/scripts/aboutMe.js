@@ -101,8 +101,7 @@ if(pets < allowedPets){
  else{
     console.log('Oh no, I have too many pets!');
  }
-
-let mostpet
+let mostpet; 
 
 if(pets < friendsPets || pets > friendsPets){
     console.log(mostpet = 'mostpet', 3);
